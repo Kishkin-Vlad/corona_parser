@@ -1,1 +1,1 @@
-# corona_parser
+# Parser coronavirus statistics
