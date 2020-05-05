@@ -51,7 +51,7 @@ def parse(link, writer):
     writer.writerow([date])
     writer.writerow([global_stat[0], global_stat[1], global_stat[1]])
     for i in range(length):
-        writer.writerow([i, arr_name[i].text, arr_count[i].text,
+        writer.writerow([i + 1, arr_name[i].text, arr_count[i].text,
                          arr_infected[i].text[1:], arr_recovered[i].text,
                          arr_died[i].text])
 
